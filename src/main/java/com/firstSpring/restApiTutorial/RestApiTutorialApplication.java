@@ -12,6 +12,7 @@ public class RestApiTutorialApplication implements CommandLineRunner{
 	DB db;
 	public static void main(String[] args) {
 		SpringApplication.run(RestApiTutorialApplication.class, args);
+		// comment
 	}
 
 	@Override
