@@ -2,7 +2,7 @@ package com.firstSpring.restApiTutorial.configuration;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Conditional;
+//import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import com.firstSpring.restApiTutorial.DB;
 import com.firstSpring.restApiTutorial.DevDB;
