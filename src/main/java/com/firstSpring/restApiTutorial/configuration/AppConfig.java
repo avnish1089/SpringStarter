@@ -1,5 +1,6 @@
 package com.firstSpring.restApiTutorial.configuration;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Conditional;
@@ -21,5 +22,8 @@ public class AppConfig {
     public DB getProdDataBean(){
         return new ProdDB();
     }
-
+    @Bean
+    public ModelMapper  getModelMapper(){
+        return new ModelMapper();
+    }
 }
